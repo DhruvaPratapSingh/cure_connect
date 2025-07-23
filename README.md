@@ -68,15 +68,18 @@ To run the project locally, follow these steps:
 
 ## Home Page
 
+<img width="1907" height="874" alt="image" src="https://github.com/user-attachments/assets/61b929c2-e274-41b2-a630-b8cb25b98e31" />
 
 
 
 ## Top Doctors Page
 
+<img width="1902" height="869" alt="image" src="https://github.com/user-attachments/assets/1ffd7dff-f5b4-4f12-867a-0bfc87e3a60f" />
 
 
 ## Appointment Booking Page
 
+<img width="1897" height="870" alt="image" src="https://github.com/user-attachments/assets/368816ff-5b52-4343-8aa5-e24d641d2fb9" />
 
 
 ## Future Enhancements
