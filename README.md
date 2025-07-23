@@ -29,7 +29,7 @@ To run the project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone 
+   git clone https://github.com/DhruvaPratapSingh/cure_connect.git
    ```
 
 2. Navigate to the project directory:
