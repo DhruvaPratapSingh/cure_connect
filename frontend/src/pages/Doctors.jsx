@@ -136,11 +136,14 @@ const Doctors = () => {
 				<button
 					onClick={handlePrevious}
 					disabled={currentPage === 1}
-					className={`flex items-center gap-2 py-2 px-4 border rounded ${
-						currentPage === 1
-							? "bg-gray-300 text-gray-500 cursor-not-allowed"
-							: "bg-bg-accent text-white"
-					}`}
+					className={`px-10 py-3 mt-1 rounded-full font-medium
+  bg-gradient-to-r from-blue-400 to-blue-600
+  text-white shadow-md
+  hover:shadow-xl hover:scale-105
+  transition-all duration-300
+  hover:from-green-400 hover:to-green-600 inline-flex
+  ${currentPage === 1 ? "opacity-50 cursor-not-allowed" : ""}`}
+
 				>
 					<CaretLeft size={20} />
 					Previous
@@ -151,11 +154,13 @@ const Doctors = () => {
 				<button
 					onClick={handleNext}
 					disabled={currentPage === Math.ceil(filterDoc.length / itemsPerPage)}
-					className={`flex items-center gap-2 py-2 px-4 border rounded ${
-						currentPage === Math.ceil(filterDoc.length / itemsPerPage)
-							? "bg-gray-300 text-gray-500 cursor-not-allowed"
-							: "bg-bg-accent text-white"
-					}`}
+					 className={`px-12 py-3 mt-10 rounded-full font-medium
+    bg-gradient-to-r from-blue-400 to-blue-600
+    text-white shadow-md
+    hover:shadow-xl hover:scale-105
+    transition-all duration-300
+    hover:from-green-400 hover:to-green-600
+    disabled:opacity-50 disabled:cursor-not-allowed inline-flex`}
 				>
 					Next
 					<CaretRight size={20} />
